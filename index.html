@@ -12,35 +12,39 @@
     <header>
         <h1> MakeUpStore </h1>
         <div class="container-icon">
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="icon-cart"
-            >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-            />
-            </svg>
-            <div class="count-products">
-                <span id="contador-productos">0</span>
+            <div class="container-cart-icon">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="icon-cart"
+                >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
             </div>
             <div class="container-cart-products hidden-cart">
-                <div class="cart-product">
-                    <div class="info-cart-product">
-                        <span class="cantidad-producto-carrito">1
-                        </span>
-                        <p class="titulo-producto-carrito">Base de maquillaje
-                        </p>
-                        <span class="precio-producto-carrito">$6980</span>
+                <div class="row-product">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1
+                            </span>
+                            <p class="titulo-producto-carrito">Base de maquillaje
+                            </p>
+                            <span class="precio-producto-carrito">$6980</span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                    </svg>
                 </div>
                 <div class="cart-total">
                     <h3>Total:</h3>
@@ -60,7 +64,7 @@
                 <div class="info-product">
                     <h2>Base Katalia</h2>
                     <p class="precio"> $6890 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
             <div class="item">
@@ -70,7 +74,7 @@
                 <div class="info-product">
                     <h2>Corrector de Ojeras</h2>
                     <p class="precio"> $3890 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
             <div class="item">
@@ -80,7 +84,7 @@
                 <div class="info-product">
                     <h2>Contorno en stick</h2>
                     <p class="precio"> $6680 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
             <div class="item">
@@ -90,7 +94,7 @@
                 <div class="info-product">
                     <h2>Mascara de pestañas</h2>
                     <p class="precio"> $5340 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
             <div class="item">
@@ -100,7 +104,7 @@
                 <div class="info-product">
                     <h2>Paleta de sombras </h2>
                     <p class="precio"> $6010 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
             <div class="item">
@@ -110,11 +114,12 @@
                 <div class="info-product">
                     <h2>Polvo Volatil</h2>
                     <p class="precio"> $5340 </p>
-                    <button>comprar</button>
+                    <button class="btn-add-cart">comprar</button>
                 </div>
             </div>
         </div>
     </main>
+    
 
 <!-- JS -->
     <script src="./JS/main.js"></script>

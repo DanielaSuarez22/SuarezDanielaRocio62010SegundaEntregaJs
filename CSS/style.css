@@ -13,6 +13,7 @@ body{
     max-width: 1200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:#333 ;
+    background-color: rgba(165, 42, 144, 0.297);
 }
 
 .icon-cart{
@@ -35,6 +36,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0 40px 0;
+    background-color: rgb(235, 123, 160);
 }
 
 .container-icon{
@@ -193,3 +195,9 @@ header {
     padding: 15px 10px;
     cursor: pointer;
 }
+
+.cart-empty{
+    padding: 20px;
+    text-align: center;
+}
+
